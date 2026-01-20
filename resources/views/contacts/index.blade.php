@@ -65,6 +65,13 @@
                         </tr>
                     @endforelse
                     </tbody>
+                    <tfoot class="bg-gray-50 dark:bg-gray-800">
+                    <tr>
+                        <td colspan="4" class="px-3 py-4">
+                            {{ $contacts->links() }}
+                        </td>
+                    </tr>
+                    </tfoot>
                 </table>
 
             </div>
