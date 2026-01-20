@@ -19,7 +19,7 @@ Route::get('/', function () {
     // app()->isProduction() ? null : auth()->loginUsingId(1);
 
     return view('welcome');
-});
+})->name('welcome');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
