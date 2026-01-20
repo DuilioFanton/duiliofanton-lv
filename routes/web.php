@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     // app()->isProduction() ? null : auth()->loginUsingId(1);
 
-    return to_route('contacts.index');
+    return view('welcome');
 });
 
 Route::get('/dashboard', function () {

@@ -5,13 +5,11 @@
                 Contacts
             </h2>
 
-            @auth
-                <a href="{{ route('contacts.create') }}">
-                    <x-primary-button>
-                        Add Contact
-                    </x-primary-button>
-                </a>
-            @endauth
+            <a href="{{ route('contacts.create') }}">
+                <x-primary-button>
+                    Add Contact
+                </x-primary-button>
+            </a>
         </div>
     </x-slot>
 
