@@ -13,7 +13,7 @@ class ContactFactory extends Factory
     {
         return [
             'name' => $this->faker->name(),
-            'contact' => $this->faker->phoneNumber(),
+            'contact' => $this->faker->numerify('#########'),
             'email' => $this->faker->unique()->safeEmail(),
         ];
     }
